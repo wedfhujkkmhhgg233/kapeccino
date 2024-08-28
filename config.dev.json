@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "2htbb8g7jf@zlorkun.com",
+    "password": "KurapikaKurtasambayangangnglegouthuhuhu",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -18,7 +18,7 @@
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [],
+  "adminBot": [100092668630167],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
