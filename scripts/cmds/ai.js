@@ -4,7 +4,7 @@ const apiEndpoint = 'https://gpt4withcustommodel.onrender.com/gpt';
 
 module.exports = {
   config: {
-    name: "ai",
+    name: "gpt",
     version: 1.0,
     author: "coffee",
     longDescription:"AI",
@@ -15,7 +15,7 @@ module.exports = {
    onChat:async({event,message})=>{
       try{
          const {body} = event;
-         if (!(body && body.toLowerCase().startsWith("ai"))) return;
+         if (!(body && body.toLowerCase().startsWith("gpt"))) return;
 
         const prompt= body.substring(2).trim();
         if (!prompt) {
